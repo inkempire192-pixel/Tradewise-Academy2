@@ -1,0 +1,12 @@
+{
+  "name": "tradewise-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TradeWise Academy education website with a server-side AI learning assistant",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

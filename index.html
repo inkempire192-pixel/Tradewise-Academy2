@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn trading, investing, and risk management with TradeWise Academy.">
+<title>TradeWise Academy | Learn. Trade. Grow.</title>
+<style>
+:root{--bg:#07111f;--panel:#101e30;--panel2:#13263a;--text:#edf5ff;--muted:#a8b8cb;--green:#62e6b2;--blue:#7bb7ff;--line:#26394f;--gold:#ffd78a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:18px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.4px}.logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--green),var(--blue));display:grid;place-items:center;color:#07111f;font-weight:900}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--green)}.btn{border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:12px;background:var(--green);color:#062018;font-weight:800;font-size:14px;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.05)}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}.hero{padding:70px 0 58px;display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center}.eyebrow{color:var(--green);font-weight:800;font-size:12px;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.06;letter-spacing:-2.5px;margin:18px 0}.hero h1 span{color:var(--green)}.hero p{color:var(--muted);font-size:18px;max-width:580px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.trust{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:13px}.trust span:before{content:"✓";color:var(--green);font-weight:900;margin-right:7px}.dashboard{background:linear-gradient(145deg,#142940,#0d1928);border:1px solid #2a415b;border-radius:24px;padding:24px;box-shadow:0 25px 80px #0005}.dash-top{display:flex;justify-content:space-between;align-items:center}.pill{font-size:12px;color:var(--green);background:#173c38;padding:5px 10px;border-radius:99px}.chart{height:180px;margin:18px 0 12px;position:relative;overflow:hidden;border-radius:12px;background:repeating-linear-gradient(to bottom,transparent 0,transparent 43px,#26394f 44px),repeating-linear-gradient(to right,transparent 0,transparent 56px,#1c3045 57px)}.chart svg{width:100%;height:100%}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#0b1726;border:1px solid var(--line);padding:12px;border-radius:12px}.stat small{display:block;color:var(--muted);font-size:11px}.stat strong{font-size:17px}.section{padding:68px 0}.section.alt{background:#0a1625;border-top:1px solid #14263a;border-bottom:1px solid #14263a}.section-head{max-width:680px;margin-bottom:30px}.section h2{font-size:clamp(29px,4vw,42px);letter-spacing:-1px;line-height:1.15;margin:10px 0 14px}.section p{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}.iconbox{width:44px;height:44px;border-radius:13px;background:#183b3a;display:grid;place-items:center;font-size:22px}.card h3{margin:14px 0 6px}.card p{font-size:14px;margin-bottom:0}.lesson-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.lesson{display:flex;gap:15px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}.lesson .num{font-weight:900;color:var(--green);font-size:13px}.lesson h3{margin:0 0 4px;font-size:17px}.lesson p{font-size:13px;margin:0}.notice{border:1px solid #6d5630;background:#2b2417;color:#ffe3aa;padding:15px 17px;border-radius:14px;font-size:13px;margin-top:24px}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px}.contact-card{background:var(--panel);border:1px solid var(--line);padding:24px;border-radius:18px}.field{display:flex;flex-direction:column;gap:6px;margin-bottom:14px}.field label{font-size:13px;color:var(--muted)}input,textarea,select{width:100%;padding:12px 13px;background:#091522;border:1px solid #30435a;border-radius:10px;color:var(--text);font:inherit}textarea{min-height:120px;resize:vertical}.small{font-size:12px;color:var(--muted)}footer{padding:28px 0;color:var(--muted);font-size:13px}.footerline{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.chat-toggle{position:fixed;right:22px;bottom:22px;z-index:20;border-radius:999px;box-shadow:0 10px 30px #0006}.chatbox{position:fixed;right:22px;bottom:86px;width:min(370px,calc(100vw - 28px));height:490px;max-height:70vh;background:#0c1928;border:1px solid #34506c;border-radius:20px;z-index:20;display:none;flex-direction:column;overflow:hidden;box-shadow:0 20px 70px #0009}.chatbox.open{display:flex}.chathead{padding:16px;background:#13283d;display:flex;justify-content:space-between;align-items:center}.chathead strong{display:block}.chathead small{color:var(--green)}.xbtn{background:transparent;color:var(--text);border:0;font-size:22px;cursor:pointer}.messages{padding:14px;flex:1;overflow:auto;display:flex;flex-direction:column;gap:10px}.msg{padding:10px 12px;border-radius:13px;max-width:90%;font-size:13px;white-space:pre-wrap}.msg.bot{align-self:flex-start;background:#172a3d;color:var(--text)}.msg.user{align-self:flex-end;background:#1b5a4b;color:#effff8}.quick{display:flex;gap:6px;flex-wrap:wrap;padding:0 12px 10px}.quick button{font-size:11px;padding:6px 9px;border:1px solid #35516b;background:#101f30;color:var(--text);border-radius:99px;cursor:pointer}.chatinput{display:flex;gap:7px;padding:12px;border-top:1px solid var(--line)}.chatinput input{min-width:0}.chatinput .btn{padding:10px 12px}.mobile-note{font-size:12px;color:var(--muted)}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:40px;gap:30px}.cards{grid-template-columns:1fr}.lesson-list{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.hero h1{letter-spacing:-1.5px}.stats{gap:6px}.stat{padding:9px}.stat strong{font-size:15px}.section{padding:50px 0}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav>
+<a class="brand" href="#home"><span class="logo">T</span><span>TradeWise <span style="color:var(--green)">Academy</span></span></a>
+<div class="navlinks"><a href="#learn">Learn</a><a href="#path">Learning path</a><a href="#assistant">AI assistant</a><a href="#contact">Contact</a></div>
+<a class="btn" href="#contact">Contact me</a>
+</nav>
+</header>
+<main>
+<section class="hero wrap" id="home">
+<div>
+<div class="eyebrow">Your journey starts here</div>
+<h1>Learn the markets.<br><span>Build your edge.</span></h1>
+<p>Practical education for people who want to understand trading, grow their investing knowledge, and make more informed financial decisions.</p>
+<div class="actions"><a class="btn" href="#learn">Start learning →</a><a class="btn secondary" href="#assistant">Ask the AI assistant</a></div>
+<div class="trust"><span>Beginner-friendly lessons</span><span>Risk-first mindset</span><span>Learn at your pace</span></div>
+</div>
+<div class="dashboard">
+<div class="dash-top"><div><div class="small">MARKET SKILLS SNAPSHOT</div><strong style="font-size:21px">Progress over predictions</strong></div><span class="pill">Learning mode</span></div>
+<div class="chart"><svg viewBox="0 0 500 180" preserveAspectRatio="none" aria-label="Illustrative market line chart"><defs><linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#62e6b2" stop-opacity=".3"/><stop offset="100%" stop-color="#62e6b2" stop-opacity="0"/></linearGradient></defs><path d="M0,145 C25,130 35,150 58,120 S95,125 115,96 S150,120 175,90 S210,105 238,65 S278,95 305,70 S340,75 365,42 S400,60 425,30 S465,48 500,15 L500,180 L0,180 Z" fill="url(#area)"/><path d="M0,145 C25,130 35,150 58,120 S95,125 115,96 S150,120 175,90 S210,105 238,65 S278,95 305,70 S340,75 365,42 S400,60 425,30 S465,48 500,15" fill="none" stroke="#62e6b2" stroke-width="3" stroke-linecap="round"/></svg></div>
+<div class="stats"><div class="stat"><small>Learn first</small><strong>Knowledge</strong></div><div class="stat"><small>Protect capital</small><strong>Risk plan</strong></div><div class="stat"><small>Stay consistent</small><strong>Discipline</strong></div></div>
+<p class="small">Illustrative graphic only — not live market data or a performance forecast.</p>
+</div>
+</section>
+<section class="section alt" id="learn"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Explore the essentials</div><h2>Learn skills you can build on</h2><p>Understand the concepts behind markets before risking real money. Start with the basics and progress one lesson at a time.</p></div>
+<div class="cards">
+<article class="card"><div class="iconbox">📈</div><h3>Trading fundamentals</h3><p>Learn how forex, stocks, and other markets work; understand order types, charts, trends, and timeframes.</p></article>
+<article class="card"><div class="iconbox">🌱</div><h3>Long-term investing</h3><p>Explore diversification, compounding, asset allocation, fees, and the difference between investing and trading.</p></article>
+<article class="card"><div class="iconbox">🛡️</div><h3>Risk management</h3><p>Study position sizing, stop-loss orders, risk/reward, emotional discipline, and why protecting capital matters.</p></article>
+</div></div></section>
+<section class="section" id="path"><div class="wrap">
+<div class="section-head"><div class="eyebrow">A simple learning path</div><h2>Go from curious to confident</h2><p>Use this roadmap as a guide. Confidence comes from practice and sound decisions—not from guaranteed profits.</p></div>
+<div class="lesson-list">
+<div class="lesson"><div class="num">01</div><div><h3>Understand the basics</h3><p>Learn market terminology, price movements, spreads, liquidity, and what moves prices.</p></div></div>
+<div class="lesson"><div class="num">02</div><div><h3>Read charts carefully</h3><p>Study candlesticks, support and resistance, trends, and the limits of technical analysis.</p></div></div>
+<div class="lesson"><div class="num">03</div><div><h3>Practice without pressure</h3><p>Try a demo account, write down your trade rationale, and review decisions before using real money.</p></div></div>
+<div class="lesson"><div class="num">04</div><div><h3>Create a risk plan</h3><p>Set limits, understand leverage, avoid money you cannot afford to lose, and keep a trading journal.</p></div></div>
+</div>
+<div class="notice"><strong>Important:</strong> Trading and investing involve risk, including the possible loss of your capital. This website provides general educational information, not personal financial advice or profit guarantees. Be especially cautious with leverage and anyone promising certain returns.</div>
+</div></section>
+<section class="section alt" id="assistant"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Your learning companion</div><h2>Meet your trading study assistant</h2><p>Ask beginner-friendly questions about trading terms, investing principles, charts, and risk management. The assistant can answer broader educational questions when the site is deployed with a server-side AI API key. It does not provide personalized financial advice.</p><button class="btn" onclick="toggleChat(true)">Open AI assistant ↗</button></div>
+</div></section>
+<section class="section" id="contact"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Let's connect</div><h2>Have a question? Contact me.</h2><p>Use this form to ask about lessons, collaboration, or learning support. Replace the sample contact details with your own before publishing.</p></div>
+<div class="contact-grid">
+<div class="contact-card"><h3>Get in touch</h3><p>I'd love to hear what you're learning and where you'd like to improve.</p><p>✉️ <a id="emailLink" href="mailto:loveadventure5799@gmail.com" style="color:var(--green)">loveadventure5799@gmail.com</a></p><p>🌍 Online learning • Beginner-friendly</p><p class="small">Contact email is configured as loveadventure5799@gmail.com.</p></div>
+<form class="contact-card" id="contactForm"><div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"></div><div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div><div class="field"><label for="topic">What would you like help with?</label><select id="topic" name="topic"><option>Trading basics</option><option>Forex education</option><option>Long-term investing</option><option>Risk management</option><option>Other / collaboration</option></select></div><div class="field"><label for="message">Your message</label><textarea id="message" name="message" required placeholder="Write your message here..."></textarea></div><button class="btn" type="submit">Prepare email →</button><p class="small">This demo opens your email app with the message prepared; it does not send or store submissions on a server.</p><div id="formStatus" class="small" role="status"></div></form>
+</div></div></section>
+</main>
+<footer><div class="wrap footerline"><span>© <span id="year"></span> TradeWise Academy. Learn with care.</span><span>Education first • Risk always matters</span></div></footer>
+<button class="btn chat-toggle" onclick="toggleChat()" aria-label="Open learning assistant">✦ Ask TradeWise</button>
+<div class="chatbox" id="chatbox" role="dialog" aria-label="TradeWise learning assistant">
+<div class="chathead"><div><strong>✦ TradeWise Assistant</strong><small>AI learning assistant · educational use</small></div><button class="xbtn" onclick="toggleChat(false)" aria-label="Close chat">×</button></div>
+<div class="messages" id="messages"><div class="msg bot">Hi! 👋 I can help you learn trading and investing basics. What would you like to understand today?</div></div>
+<div class="quick"><button onclick="askQuick('How does forex trading work?')">Forex basics</button><button onclick="askQuick('What is risk management?')">Risk management</button><button onclick="askQuick('What is the difference between trading and investing?')">Trading vs investing</button></div>
+<form class="chatinput" id="chatForm"><input id="chatInput" aria-label="Ask a question" placeholder="Ask a learning question..." autocomplete="off" required><button class="btn" type="submit">Send</button></form>
+</div>
+<script>
+const CONTACT_EMAIL = "loveadventure5799@gmail.com"; // Replace with your real contact email.
+document.getElementById("year").textContent = new Date().getFullYear();
+function toggleChat(force){const box=document.getElementById("chatbox");if(typeof force==="boolean")box.classList.toggle("open",force);else box.classList.toggle("open");if(box.classList.contains("open"))document.getElementById("chatInput").focus();}
+function addMessage(text,who){const el=document.createElement("div");el.className="msg "+who;el.textContent=text;const list=document.getElementById("messages");list.appendChild(el);list.scrollTop=list.scrollHeight;}
+function askQuick(text){document.getElementById("chatInput").value=text;answerQuestion(text);}
+async function answerQuestion(raw){const q=raw.toLowerCase();addMessage(raw,"user");let a;
+try {
+  const response = await fetch("/api/chat", {
+    method: "POST", headers: {"Content-Type":"application/json"},
+    body: JSON.stringify({message: raw})
+  });
+  if (response.ok) {
+    const data = await response.json();
+    if (data && data.reply) { addMessage(data.reply,"bot"); return; }
+  }
+} catch (err) { /* Local fallback below when the API is not configured or site is opened as a file. */ }
+
+if(q.includes("forex")||q.includes("currency"))a="Forex (foreign exchange) is a market where people exchange one currency for another, such as EUR/USD. Traders try to benefit from changes in exchange rates. Prices can move quickly, spreads and fees matter, and leverage can magnify losses. Learn the basics and practise on a demo account before considering real money.";
+else if(q.includes("risk")||q.includes("stop loss")||q.includes("position size"))a="Risk management means deciding in advance how much you can afford to lose and how you will limit risk. Common tools include position sizing, stop-loss orders, diversification, and a written plan. No tool eliminates risk, and stop-loss orders may not fill at the exact requested price during fast markets.";
+else if(q.includes("difference")||q.includes("investing")||q.includes("long-term"))a="Trading often focuses on shorter-term price movements and may involve frequent decisions. Investing usually aims to build wealth over a longer period by owning assets such as diversified funds or shares. Both carry risk; time horizon, fees, diversification, and your financial situation matter.";
+else if(q.includes("stock")||q.includes("share"))a="A stock (share) represents partial ownership in a company. Its price can rise or fall based on company performance, market expectations, and wider economic conditions. Research the business, understand valuation and fees, and avoid putting all your money into one company.";
+else if(q.includes("chart")||q.includes("candlestick")||q.includes("support")||q.includes("resistance"))a="A price chart shows how an asset's price changes over time. Candlesticks summarise open, high, low, and close prices for a chosen period. Support and resistance are areas where price has previously struggled to move through; they are interpretations, not guarantees.";
+else if(q.includes("begin")||q.includes("start")||q.includes("learn"))a="A sensible beginner path is: (1) learn market terms, (2) understand fees and risk, (3) study one market, (4) practise in a demo account, (5) keep a journal, and (6) review your results. Don't borrow money or use funds needed for essentials to trade.";
+else if(q.includes("crypto")||q.includes("bitcoin"))a="Cryptoassets can be highly volatile and may involve custody, fraud, liquidity, and regulatory risks. Learn how wallets and platforms work, verify providers independently, and never share your recovery phrase. Only consider risk you can afford to lose.";
+else if(q.includes("guarantee")||q.includes("profit")||q.includes("signal")||q.includes("buy now")||q.includes("which stock"))a="I can't guarantee profits or provide a personalised buy/sell signal. Any investment can lose value. I can help you compare general concepts, understand risks, and build a research checklist. Consider a qualified, appropriately licensed financial adviser for advice specific to you.";
+else a="Good question. I can explain general concepts about forex, stocks, investing, charts, and risk management, but this demo assistant isn't connected to a live AI service or market data. Try asking: “How does forex work?”, “What is risk management?”, or “What is the difference between trading and investing?”";
+setTimeout(()=>addMessage("Live AI is not connected in this preview yet. "+a,"bot"),180);}
+document.getElementById("chatForm").addEventListener("submit",e=>{e.preventDefault();const input=document.getElementById("chatInput");const value=input.value.trim();if(!value)return;input.value="";answerQuestion(value);});
+document.getElementById("contactForm").addEventListener("submit",e=>{e.preventDefault();const f=e.currentTarget;const name=f.name.value.trim(),email=f.email.value.trim(),topic=f.topic.value,message=f.message.value.trim();if(!name||!email||!message)return;const subject=encodeURIComponent("Website enquiry: "+topic);const body=encodeURIComponent("Name: "+name+"\nReply email: "+email+"\nTopic: "+topic+"\n\nMessage:\n"+message);document.getElementById("formStatus").textContent="Opening your email app with the message prepared…";window.location.href="mailto:"+CONTACT_EMAIL+"?subject="+subject+"&body="+body;});
+</script>
+</body>
+</html>
